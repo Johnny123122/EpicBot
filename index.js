@@ -132,4 +132,4 @@ break;
 });
 
 require('./server')();
-bot.login(config.token);
+bot.login(process.env.token);
